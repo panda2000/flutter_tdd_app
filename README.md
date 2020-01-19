@@ -1,6 +1,6 @@
 # flutter_tdd_app
 
-A new Flutter application.
+A new TDD Flutter application.
 
 ## Getting Started
 
@@ -14,3 +14,15 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## RUN TESTs
+
+Unit tests
+# flutter test test/counter_test.dart
+
+Widget tests
+# flutter test test/widget_test.dart
+
+Integration tests
+# flutter drive --target=test_driver/app.dart
+
